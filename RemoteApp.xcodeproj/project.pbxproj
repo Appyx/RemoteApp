@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E12820A71E43F25B00A42DEB /* CommandDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12820A61E43F25B00A42DEB /* CommandDetailViewController.swift */; };
+		E12820A91E43FCB100A42DEB /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12820A81E43FCB100A42DEB /* UIHelper.swift */; };
+		E13FB6C51E483D66004E52ED /* IPSignalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13FB6C41E483D66004E52ED /* IPSignalViewController.swift */; };
+		E14FD7891E45C6D600E65C3C /* AccessoryTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14FD7881E45C6D600E65C3C /* AccessoryTypeViewController.swift */; };
+		E14FD78D1E468F0100E65C3C /* ConfigureDeviceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14FD78C1E468F0100E65C3C /* ConfigureDeviceViewController.swift */; };
+		E14FD78F1E46927300E65C3C /* ConfigureSensorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14FD78E1E46927300E65C3C /* ConfigureSensorViewController.swift */; };
+		E14FD7921E46F57600E65C3C /* HomeKitHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14FD7911E46F57600E65C3C /* HomeKitHandler.swift */; };
+		E19E63371E3F8CD1005F0858 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19E63361E3F8CD1005F0858 /* AppDelegate.swift */; };
+		E19E633C1E3F8CD1005F0858 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E19E633A1E3F8CD1005F0858 /* Main.storyboard */; };
+		E19E633E1E3F8CD1005F0858 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E19E633D1E3F8CD1005F0858 /* Assets.xcassets */; };
+		E19E63411E3F8CD1005F0858 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E19E633F1E3F8CD1005F0858 /* LaunchScreen.storyboard */; };
+		E19E634B1E411E29005F0858 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19E634A1E411E29005F0858 /* MainViewController.swift */; };
+		E19E634D1E411E6E005F0858 /* AccessoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19E634C1E411E6E005F0858 /* AccessoriesViewController.swift */; };
+		E19E634F1E411E81005F0858 /* RemotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19E634E1E411E81005F0858 /* RemotesViewController.swift */; };
+		E19E63511E411EBC005F0858 /* RemoteDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19E63501E411EBC005F0858 /* RemoteDetailViewController.swift */; };
+		E19E63531E411ED5005F0858 /* AccessoryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19E63521E411ED5005F0858 /* AccessoryDetailViewController.swift */; };
+		E19E63551E4120BD005F0858 /* TableViewHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19E63541E4120BD005F0858 /* TableViewHandler.swift */; };
+		E19E63591E413506005F0858 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19E63581E413506005F0858 /* HTTPClient.swift */; };
+		E19E635B1E415B5B005F0858 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19E635A1E415B5B005F0858 /* Database.swift */; };
+		E19E635D1E4165B0005F0858 /* AccessoryType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19E635C1E4165B0005F0858 /* AccessoryType.swift */; };
+		E19E635F1E416D29005F0858 /* AccessoryConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19E635E1E416D29005F0858 /* AccessoryConfiguration.swift */; };
+		E19E63611E41785B005F0858 /* Remote.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19E63601E41785B005F0858 /* Remote.swift */; };
+		E1B8875E1E442BEB0040F446 /* CommandChooserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B8875D1E442BEB0040F446 /* CommandChooserViewController.swift */; };
+		E1B887601E4458DF0040F446 /* Touchpad.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B8875F1E4458DF0040F446 /* Touchpad.swift */; };
+		E1B887621E4578730040F446 /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B887611E4578730040F446 /* Command.swift */; };
+		E1BE95B11E424CFC0016EE7C /* AssistantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BE95B01E424CFC0016EE7C /* AssistantViewController.swift */; };
+		E1BE95B51E425E710016EE7C /* RecordSignalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BE95B41E425E710016EE7C /* RecordSignalViewController.swift */; };
+		E1BE95B91E42A46A0016EE7C /* TouchpadConfigurationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BE95B81E42A46A0016EE7C /* TouchpadConfigurationViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E12820A61E43F25B00A42DEB /* CommandDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommandDetailViewController.swift; sourceTree = "<group>"; };
+		E12820A81E43FCB100A42DEB /* UIHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
+		E13FB6C41E483D66004E52ED /* IPSignalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IPSignalViewController.swift; sourceTree = "<group>"; };
+		E14FD7881E45C6D600E65C3C /* AccessoryTypeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccessoryTypeViewController.swift; sourceTree = "<group>"; };
+		E14FD78C1E468F0100E65C3C /* ConfigureDeviceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigureDeviceViewController.swift; sourceTree = "<group>"; };
+		E14FD78E1E46927300E65C3C /* ConfigureSensorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigureSensorViewController.swift; sourceTree = "<group>"; };
+		E14FD7911E46F57600E65C3C /* HomeKitHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeKitHandler.swift; sourceTree = "<group>"; };
+		E19E63331E3F8CD1005F0858 /* RemoteApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RemoteApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E19E63361E3F8CD1005F0858 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E19E633B1E3F8CD1005F0858 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E19E633D1E3F8CD1005F0858 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E19E63401E3F8CD1005F0858 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E19E63421E3F8CD1005F0858 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E19E634A1E411E29005F0858 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		E19E634C1E411E6E005F0858 /* AccessoriesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccessoriesViewController.swift; sourceTree = "<group>"; };
+		E19E634E1E411E81005F0858 /* RemotesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemotesViewController.swift; sourceTree = "<group>"; };
+		E19E63501E411EBC005F0858 /* RemoteDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteDetailViewController.swift; sourceTree = "<group>"; };
+		E19E63521E411ED5005F0858 /* AccessoryDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccessoryDetailViewController.swift; sourceTree = "<group>"; };
+		E19E63541E4120BD005F0858 /* TableViewHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewHandler.swift; sourceTree = "<group>"; };
+		E19E63581E413506005F0858 /* HTTPClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
+		E19E635A1E415B5B005F0858 /* Database.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		E19E635C1E4165B0005F0858 /* AccessoryType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccessoryType.swift; sourceTree = "<group>"; };
+		E19E635E1E416D29005F0858 /* AccessoryConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccessoryConfiguration.swift; sourceTree = "<group>"; };
+		E19E63601E41785B005F0858 /* Remote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Remote.swift; sourceTree = "<group>"; };
+		E1B8875D1E442BEB0040F446 /* CommandChooserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommandChooserViewController.swift; sourceTree = "<group>"; };
+		E1B8875F1E4458DF0040F446 /* Touchpad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Touchpad.swift; sourceTree = "<group>"; };
+		E1B887611E4578730040F446 /* Command.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Command.swift; sourceTree = "<group>"; };
+		E1BE95B01E424CFC0016EE7C /* AssistantViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssistantViewController.swift; sourceTree = "<group>"; };
+		E1BE95B41E425E710016EE7C /* RecordSignalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordSignalViewController.swift; sourceTree = "<group>"; };
+		E1BE95B81E42A46A0016EE7C /* TouchpadConfigurationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouchpadConfigurationViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E19E63301E3F8CD1005F0858 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E14FD7901E46941600E65C3C /* Assistant */ = {
+			isa = PBXGroup;
+			children = (
+				E1BE95B01E424CFC0016EE7C /* AssistantViewController.swift */,
+				E1BE95B41E425E710016EE7C /* RecordSignalViewController.swift */,
+				E13FB6C41E483D66004E52ED /* IPSignalViewController.swift */,
+				E1BE95B81E42A46A0016EE7C /* TouchpadConfigurationViewController.swift */,
+				E14FD7881E45C6D600E65C3C /* AccessoryTypeViewController.swift */,
+				E14FD78E1E46927300E65C3C /* ConfigureSensorViewController.swift */,
+				E14FD78C1E468F0100E65C3C /* ConfigureDeviceViewController.swift */,
+				E1B8875D1E442BEB0040F446 /* CommandChooserViewController.swift */,
+			);
+			name = Assistant;
+			sourceTree = "<group>";
+		};
+		E19E632A1E3F8CD1005F0858 = {
+			isa = PBXGroup;
+			children = (
+				E19E63351E3F8CD1005F0858 /* RemoteApp */,
+				E19E63341E3F8CD1005F0858 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E19E63341E3F8CD1005F0858 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E19E63331E3F8CD1005F0858 /* RemoteApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E19E63351E3F8CD1005F0858 /* RemoteApp */ = {
+			isa = PBXGroup;
+			children = (
+				E19E63571E4134B0005F0858 /* Logic */,
+				E19E63561E413495005F0858 /* UI */,
+				E19E63361E3F8CD1005F0858 /* AppDelegate.swift */,
+				E19E633D1E3F8CD1005F0858 /* Assets.xcassets */,
+				E19E63421E3F8CD1005F0858 /* Info.plist */,
+			);
+			path = RemoteApp;
+			sourceTree = "<group>";
+		};
+		E19E63561E413495005F0858 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				E19E633A1E3F8CD1005F0858 /* Main.storyboard */,
+				E19E633F1E3F8CD1005F0858 /* LaunchScreen.storyboard */,
+				E19E634A1E411E29005F0858 /* MainViewController.swift */,
+				E19E634C1E411E6E005F0858 /* AccessoriesViewController.swift */,
+				E19E63521E411ED5005F0858 /* AccessoryDetailViewController.swift */,
+				E19E634E1E411E81005F0858 /* RemotesViewController.swift */,
+				E19E63501E411EBC005F0858 /* RemoteDetailViewController.swift */,
+				E12820A61E43F25B00A42DEB /* CommandDetailViewController.swift */,
+				E14FD7901E46941600E65C3C /* Assistant */,
+				E12820A81E43FCB100A42DEB /* UIHelper.swift */,
+				E19E63541E4120BD005F0858 /* TableViewHandler.swift */,
+				E1B8875F1E4458DF0040F446 /* Touchpad.swift */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		E19E63571E4134B0005F0858 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				E19E63581E413506005F0858 /* HTTPClient.swift */,
+				E19E635A1E415B5B005F0858 /* Database.swift */,
+				E19E635C1E4165B0005F0858 /* AccessoryType.swift */,
+				E19E635E1E416D29005F0858 /* AccessoryConfiguration.swift */,
+				E19E63601E41785B005F0858 /* Remote.swift */,
+				E1B887611E4578730040F446 /* Command.swift */,
+				E14FD7911E46F57600E65C3C /* HomeKitHandler.swift */,
+			);
+			name = Logic;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E19E63321E3F8CD1005F0858 /* RemoteApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E19E63451E3F8CD1005F0858 /* Build configuration list for PBXNativeTarget "RemoteApp" */;
+			buildPhases = (
+				E19E632F1E3F8CD1005F0858 /* Sources */,
+				E19E63301E3F8CD1005F0858 /* Frameworks */,
+				E19E63311E3F8CD1005F0858 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RemoteApp;
+			productName = RemoteApp;
+			productReference = E19E63331E3F8CD1005F0858 /* RemoteApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E19E632B1E3F8CD1005F0858 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = FH;
+				TargetAttributes = {
+					E19E63321E3F8CD1005F0858 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = H394CG628A;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E19E632E1E3F8CD1005F0858 /* Build configuration list for PBXProject "RemoteApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E19E632A1E3F8CD1005F0858;
+			productRefGroup = E19E63341E3F8CD1005F0858 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E19E63321E3F8CD1005F0858 /* RemoteApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E19E63311E3F8CD1005F0858 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E19E63411E3F8CD1005F0858 /* LaunchScreen.storyboard in Resources */,
+				E19E633E1E3F8CD1005F0858 /* Assets.xcassets in Resources */,
+				E19E633C1E3F8CD1005F0858 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E19E632F1E3F8CD1005F0858 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E19E634F1E411E81005F0858 /* RemotesViewController.swift in Sources */,
+				E1BE95B51E425E710016EE7C /* RecordSignalViewController.swift in Sources */,
+				E14FD78F1E46927300E65C3C /* ConfigureSensorViewController.swift in Sources */,
+				E19E63371E3F8CD1005F0858 /* AppDelegate.swift in Sources */,
+				E1B887621E4578730040F446 /* Command.swift in Sources */,
+				E14FD7891E45C6D600E65C3C /* AccessoryTypeViewController.swift in Sources */,
+				E14FD7921E46F57600E65C3C /* HomeKitHandler.swift in Sources */,
+				E1B887601E4458DF0040F446 /* Touchpad.swift in Sources */,
+				E19E635F1E416D29005F0858 /* AccessoryConfiguration.swift in Sources */,
+				E19E63591E413506005F0858 /* HTTPClient.swift in Sources */,
+				E1BE95B11E424CFC0016EE7C /* AssistantViewController.swift in Sources */,
+				E19E63551E4120BD005F0858 /* TableViewHandler.swift in Sources */,
+				E12820A71E43F25B00A42DEB /* CommandDetailViewController.swift in Sources */,
+				E14FD78D1E468F0100E65C3C /* ConfigureDeviceViewController.swift in Sources */,
+				E1BE95B91E42A46A0016EE7C /* TouchpadConfigurationViewController.swift in Sources */,
+				E19E63531E411ED5005F0858 /* AccessoryDetailViewController.swift in Sources */,
+				E19E634D1E411E6E005F0858 /* AccessoriesViewController.swift in Sources */,
+				E19E635B1E415B5B005F0858 /* Database.swift in Sources */,
+				E13FB6C51E483D66004E52ED /* IPSignalViewController.swift in Sources */,
+				E1B8875E1E442BEB0040F446 /* CommandChooserViewController.swift in Sources */,
+				E12820A91E43FCB100A42DEB /* UIHelper.swift in Sources */,
+				E19E63511E411EBC005F0858 /* RemoteDetailViewController.swift in Sources */,
+				E19E635D1E4165B0005F0858 /* AccessoryType.swift in Sources */,
+				E19E634B1E411E29005F0858 /* MainViewController.swift in Sources */,
+				E19E63611E41785B005F0858 /* Remote.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E19E633A1E3F8CD1005F0858 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E19E633B1E3F8CD1005F0858 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E19E633F1E3F8CD1005F0858 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E19E63401E3F8CD1005F0858 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E19E63431E3F8CD1005F0858 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E19E63441E3F8CD1005F0858 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E19E63461E3F8CD1005F0858 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H394CG628A;
+				INFOPLIST_FILE = RemoteApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.appyx.remoteapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E19E63471E3F8CD1005F0858 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H394CG628A;
+				INFOPLIST_FILE = RemoteApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.appyx.remoteapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E19E632E1E3F8CD1005F0858 /* Build configuration list for PBXProject "RemoteApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E19E63431E3F8CD1005F0858 /* Debug */,
+				E19E63441E3F8CD1005F0858 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E19E63451E3F8CD1005F0858 /* Build configuration list for PBXNativeTarget "RemoteApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E19E63461E3F8CD1005F0858 /* Debug */,
+				E19E63471E3F8CD1005F0858 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E19E632B1E3F8CD1005F0858 /* Project object */;
+}
